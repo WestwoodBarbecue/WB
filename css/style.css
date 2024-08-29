@@ -1,7 +1,3 @@
-:root {
-    --pic-size: 162px; /*even*/
-}
-
 body {
     min-width: 350px;
     background-color: black;
@@ -132,7 +128,7 @@ body {
 
 .menu-section-header {
     background-image: linear-gradient(to top, rgba(235,46,8,1), rgba(255,127,39,1));
-    /* display:block;  */
+    display:flex; 
     justify-content:center; 
     align-content: center;
     border-radius: 5px;
@@ -152,35 +148,35 @@ body {
     /* font-size: 16px; */
     }
 
-
 .contact-bar {
-    height: 16px;
-    width: 100%;
-    margin-bottom: 8px;
-    padding-bottom: 8px;
     display: flex;
     justify-content: center;
+    /* grid-template-columns: 112px 200px 64px; 
+    height: 18px;
+    width: 100%;
+    margin-top: 12px; 
+    margin-bottom: 8px;
+    padding-bottom: 4px; */
 }
 
 .contact-item-holder {
     background-image: linear-gradient(to top, rgba(235,46,8,1), rgba(255,127,39,1));
-    padding: 0px 6px 5px 8px;
-    border-radius: 8px;
+    display: inline-block;
+    /* margin: 10px 8px 2px 8px;
+    height: 24px;
+    border-radius: 8px; */
 }
 
 .contact-item-img {
-    height: 8px;
     display: inline;
-    padding: 2px 2px 0px 2px;
+    /* height: 8px;
+    padding: 2px 2px 0px 2px; */
 }
 
 .contact-item-link {
     color: black;
-    font-size: 10px;
-}
-
-.contact-gap {
-    width: 10px;
+    /* padding-right: 4px;
+    font-size: 12px; */
 }
 
 /* Extra small devices (phones, 479px and down) */
@@ -270,10 +266,35 @@ body {
     .menu-item {
         font-size: 16px;
     }
-   
+
+    .contact-bar {
+        grid-template-columns: 112px 200px 64px; 
+        height: 18px;
+        width: 100%;
+        margin-top: 12px; 
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+    
+    .contact-item-holder {
+        margin: 10px 8px 2px 8px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    
+    .contact-item-img {
+        height: 8px;
+        padding: 2px 2px 0px 2px;
+    }
+    
+    .contact-item-link {
+        font-size: 11px;
+        padding-right: 4px;
+    }
+       
 }
 
-/* Small devices (phones, 48px and up) */
+/* Small devices (phones, 480px and up) */
 @media only screen and (min-width: 480px) {
 
     /* #grad {
@@ -360,6 +381,31 @@ body {
 
     .menu-item {
         font-size: 18px;
+    }
+
+    .contact-bar {
+        grid-template-columns: 112px 200px 64px; 
+        height: 18px;
+        width: 100%;
+        margin-top: 12px; 
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+    
+    .contact-item-holder {
+        margin: 10px 8px 2px 8px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    
+    .contact-item-img {
+        height: 8px;
+        padding: 2px 2px 0px 2px;
+    }
+    
+    .contact-item-link {
+        padding-right: 4px;
+        font-size: 12px;
     }
 
 }
@@ -452,9 +498,32 @@ body {
     .menu-item {
         font-size: 18px;
     }
+
+    .contact-bar {
+        grid-template-columns: 112px 200px 64px; 
+        height: 18px;
+        width: 100%;
+        margin-top: 12px; 
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+    
+    .contact-item-holder {
+        margin: 10px 8px 2px 8px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    
+    .contact-item-img {
+        height: 8px;
+        padding: 2px 2px 0px 2px;
+    }
+    
+    .contact-item-link {
+        padding-right: 4px;
+        font-size: 12px;
+    }
    
-
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -544,6 +613,31 @@ body {
 
     .menu-item {
         font-size: 18px;
+    }
+
+    .contact-bar {
+        grid-template-columns: 112px 200px 64px; 
+        height: 18px;
+        width: 100%;
+        margin-top: 12px; 
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+    
+    .contact-item-holder {
+        margin: 10px 8px 2px 8px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    
+    .contact-item-img {
+        height: 8px;
+        padding: 2px 2px 0px 2px;
+    }
+    
+    .contact-item-link {
+        padding-right: 4px;
+        font-size: 12px;
     }
 
 }
@@ -636,7 +730,30 @@ body {
     .menu-item {
         font-size: 18px;
     }
-   
 
+    .contact-bar {
+        grid-template-columns: 112px 200px 64px; 
+        height: 18px;
+        width: 100%;
+        margin-top: 12px; 
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+    }
+    
+    .contact-item-holder {
+        margin: 10px 8px 2px 8px;
+        height: 24px;
+        border-radius: 8px;
+    }
+    
+    .contact-item-img {
+        height: 8px;
+        padding: 2px 2px 0px 2px;
+    }
+    
+    .contact-item-link {
+        padding-right: 4px;
+        font-size: 12px;
+    }
 
 }
